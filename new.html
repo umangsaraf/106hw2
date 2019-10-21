@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title> MCDONALD'S Data Analysis</title>
+    </head>
+    <body>
+        <style>
+            h1 {
+                margin-top: 30;
+                color: yellow;
+                font-family: verdana;
+                font-size: 300%;
+   
+        }
+
+            p {
+                text-align:center;
+                margin-top: 100px;
+                 margin-bottom: 100px;
+                margin-right: 250px;
+                margin-left: 200px;
+                font-size: 25px;
+            }
+            hr{
+                margin-top: 1x; 
+                
+            }
+            .vl {
+  border-left: 6px solid green;
+             height: 500px;
+            }
+            
+            
+            </style>
+            <div class="vl"></div>
+            
+        <div style="text-align: center;">
+            <h1>MCdonalds Data Analysis</h1>
+        </div>
+    <hr>
+    <div class=container4>
+
+        <p >Hey Boss! Hope you're having a good time on your yatch i mean work. You wanted me to
+            figure out if the new impossible burger made an impact on our revenue. 
+            Well the simple answer is - <b> Yes </b>   Our sales have taken a big hit since the launch of new impossible burger.</p> 
+            <p>
+            Lets take a look at the average revenue of each month by year. I'm computing total average monthly sales
+            for each instead of sum of months since I dont have the complete data for 2019. There was a
+            <b>15%</b>increase in revenue in 2017 and <b>5%</b> increase to  <b>$12.8 million</b> in 2018. But instead of
+            upward trend for 2019, there was a <b>2%</b> decrease to <b>$12.1 million</b>
+        </p>
+        <div id="stacked_columns" class = 'wrap' style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>
+       
+           <hr>
+
+    </div>
+    <p > Taking a look at the chart below, we see the revenue for each month increases with the year.
+        For year 2016 and 2017, we notice an psoitibve facing slope from January to Decmber with a few dips
+        at some months. The revenue then again decrease back again in Janauary. This can be explained by people switching to a healhier diet as a new 
+        year resolution <br>
+        2018 we had some dips in revenue in may and june but in oct 2018 our sales fell from 13.2 million to
+        11.3 millions, a 14% drop, making it the largest drop in revenue.
+        </p>
+    <div id="line_chart_TR" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>
+
+        <p> Let's take a closer look on how revenue got impacted by the impossible burger. We see that
+            uptil october 2018, the months have a revenue of around $13 million on avergae. When the impossible
+        burger were released there was a big drop in revenue. Impossible burger just didn't affect Octobers revenue but also 
+        all months after it. Revenue in all months of 2019 was lower than the revenue of those in 2018.
+    </p>
+        <div id="Single_line" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>
+
+        <p>
+            Looking at the revenue for diffrent regions after the impossible burger was released, we see 
+            that all regions took a hit and their revenue went down significantly.
+        </p>
+        <div id="chart_regions" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>
+        <div id = two>
+        <div id="pie_chart" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto"></div>
+        <div id="daily_col" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto;"></div>
+        <div id="daily_reg" style="min-width: 310px; max-width: 800px; height: 600px; margin: 0 auto;"></div>
+
+        </div>
+
+        <script src = 'https://code.highcharts.com/highcharts.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = 'LineChartsTR.js'></script>
+        <script src = 'singleLine.js'></script>
+        <script src = 'stacked_col.js'></script>
+        <script src = 'regions.js'></script>
+        <script src = 'pie.js'></script>
+        <script src = 'daily.js'></script>
+        <script src = 'region_daily.js'></script>
+
+
+        
+
+
+
+        
+        
+    </body>
+</html>
